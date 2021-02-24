@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+</head>
+<body>
+
+    <h1>Contáctame</h1>
+    
+    <ul>
+        <li><a href="https://www.facebook.com/ivan.morales.31586/">Facebook</a></li>
+        <li><a href="https://twitter.com/vanban_95">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/iv%C3%A1n-morales-8631841b3/">Linkedln</a></li>
+    </ul>
+
+    <hr size="3" noshade> 
+
+    <form action="mailto:ivanmj.1128@gmail.com" method="post" enctype="text/plain">
+       <!--action nos indica la acción que realizará el "submit"
+            y "enctype" es el atributo que le indica al formulario
+                el tipo de encoding de nuestro archivo-->
+
+        <label for="Nombre"><strong>Tu nombre:</strong></label>
+        <input type="text" name="Tu nombre: " id=""><br>
+
+        <label for="Correo"><strong>Tu correo:</strong></label>
+        <input type="email" name="Tu correo: " id="" checked><br>
+                <!--el atributo "checked" ayudará a verificar
+                que el correo introducido cumpla con los requisitos
+                minimos de verificacion-->
+
+        <label for="Mensaje">Tu mensaje:</label>
+        <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
+                    <!--"cols" es el largo y "rows" es el ancho
+                        del cuadro de texto-->
+        <input type="submit" value="Emviar">
+    </form>
+</body>
+</html>
